@@ -39,6 +39,18 @@
           <img src="assets/images/logo.svg" alt="logo" />
         </div>
         <ul class="header__nav">
+          <img
+            onclick="handle_menu()"
+            class="icon-menu"
+            src="assets/images/icon-menu.svg"
+            alt="menu"
+          />
+          <img
+            onclick="handle_menu()"
+            class="icon-close"
+            src="assets/images/icon-menu-close.svg"
+            alt="close menu"
+          />
           <li><a href="#">Home</a></li>
           <li><a href="#">New</a></li>
           <li><a href="#">Popular</a></li>
@@ -118,5 +130,11 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+    <script>
+      let menu = document.querySelector('.header__nav');
+      function handle_menu() {
+        menu.classList.toggle('open');
+      }
+    </script>
   </body>
 </html>
