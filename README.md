@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Loluva/NewsHomepageMain)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/Loluva/NewsHomepageMain)
+- Live Site URL: [live site URL](https://loluva.github.io/NewsHomepageMain/)
 
 ## My process
 
